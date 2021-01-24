@@ -6,6 +6,5 @@ def gcd(a,b):
 def lcm(a,b):
     return (a / gcd(a,b))* b
  
-a = 15 
-b = 20
+a,b=map(int,input().split())
 print('LCM of', a, 'and', b, 'is', lcm(a, b))
